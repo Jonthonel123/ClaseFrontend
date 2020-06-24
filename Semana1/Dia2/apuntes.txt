@@ -1,0 +1,18 @@
+git status --> para ver como esta en el tiempo o que a sido modificado
+
+git add ./ --> para agregar general 
+
+git commit -m "zzzzz" --> para grabar en el tiempo
+
+git log --> para ver todos los commit 
+
+git reset --> puedes volver a una version anterior
+
+.gitignore --> sirve para obviar algunas archivos al momento de subir al report
+
+git clone --> para clonar repositorios
+
+git pull --> descargar todas los cambios de las repos
+
+git checkout --> para cambiar de ramas
+
