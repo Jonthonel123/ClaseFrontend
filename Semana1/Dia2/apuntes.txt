@@ -16,3 +16,10 @@ git pull --> descargar todas los cambios de las repos
 
 git checkout --> para cambiar de ramas
 
+-------------------------------------------------------------
+
+placeholder.com --> pagina para imgs
+
+<ol Type="a">
+
+</ol>
