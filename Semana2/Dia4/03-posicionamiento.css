@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* declarando variables */
+
+:root {
+    --naranja: rgb(255, 182, 74);
+    --rosado: rgb(255, 82, 163);
+    --crecer: 1;
+}
+
+header {
+    height: 60px;
+    background: -webkit-linear-gradient(right, var(--naranja), var(--rosado));
+}
+
+.principal {
+    margin: 50px auto 0 auto;
+    width: 50%;
+    height: 1500px;
+    box-shadow: #bbb 0px 0px 20px;
+    position: relative;
+}
+
+.section1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--naranja);
+    /* relative => el elemento esta listo para moverse */
+    position: relative;
+    /* mover n pixeles desde la izquierda */
+    left: 50px;
+    top: 50px;
+    z-index: 200;
+}
+
+.section2 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--rosado);
+    /* relative => el elemento esta listo para moverse */
+    position: relative;
+    z-index: 100;
+}
+
+.section3 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--naranja);
+    /* relative => el elemento esta listo para moverse */
+    position: relative;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+
+.texto {
+    color: rgb(0, 0, 0);
+}
+
+.fab {
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    background: -webkit-linear-gradient(top, var(--rosado), var(--naranja));
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.margen {
+    margin-right: 100px;
+    margin-bottom: 50px;
+    box-shadow: var(--rosado) 0px 0px 20px;
+}
+
+.izquierdo {
+    left: 100px;
+    bottom: 50px;
+    box-shadow: var(--rosado) 0px 0px 20px;
+    position: fixed;
+}
+
+.fab:hover {
+    transform: scale(var(--crecer));
+}
+
+
+/* modifico el valor de la variable
+crecer en 3 clases diferentes */
+
+.zoom-11 {
+    --crecer: 1.1;
+}
+
+.zoom-15 {
+    --crecer: 1.5;
+}
+
+.zoom-2 {
+    --crecer: 2;
+}

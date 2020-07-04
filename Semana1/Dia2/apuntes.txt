@@ -23,3 +23,9 @@ placeholder.com --> pagina para imgs
 <ol Type="a">
 
 </ol>
+
+position:relative --> solo funciona con TOP Y LEFT
+position:absolute --> todos los elemento se vuelve flotante(o no existe) --> cuando es absolute el padre debe tener position relative 
+						para que se mueva dentro y no se salga fuera de un div, section etc
+position:fixed --> posisiona al elemento al viewport osea lo deja dijo asi muevas arriba o abajo
+
