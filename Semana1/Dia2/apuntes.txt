@@ -29,3 +29,26 @@ position:absolute --> todos los elemento se vuelve flotante(o no existe) --> cua
 						para que se mueva dentro y no se salga fuera de un div, section etc
 position:fixed --> posisiona al elemento al viewport osea lo deja dijo asi muevas arriba o abajo
 
+filter: grayscale(0.8) --> para bajar la intensidad de color a blanco y negro por ahi
+filter: brigthness(0.5) --> baja el brillo de la imagen --> lo puedes usar con hover
+
+flex-direction:row -->es por defecto(todos los elementos en la misma linea o row)
+eje principan -> x u Horizontal
+eje secundario -> y u Vertical
+
+flex-direction:column
+principal->Y o vertical
+secundario -> x u horizontal
+
+justify-content --> se alinea en el eje principal (flex-start-al lado izquierdo,flex-end lado derecho, center,space-between alinea uno a la derecha
+otro en medio y otro al izquierda, space-around,space-evenly)
+align-items --> se alinea en el eje secundario
+
+
+flex-wrap:nowrap --> por defecto(no va colapsar los elementos)
+
+align-content --> sirve para alinear los elementos cuando la propiedad flex-wrap esta en "wrap" 
+y los elementos han colpasado formando asi mas de una fila en el caso de flex row o mas de una
+columna en el caso de flex column
+
+
