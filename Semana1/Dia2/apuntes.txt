@@ -17,6 +17,13 @@ git pull --> descargar todas los cambios de las repos
 git checkout --> para cambiar de ramas
 
 -------------------------------------------------------------
+link de paginas para CSS
+https://tympanus.net/codrops/
+https://animate.style/
+https://dribbble.com/shots/popular/typography
+https://lottiefiles.com/
+https://www.svgator.com/
+-------------------------------------------------------------
 
 placeholder.com --> pagina para imgs
 
