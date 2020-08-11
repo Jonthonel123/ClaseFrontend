@@ -23,6 +23,9 @@ https://animate.style/
 https://dribbble.com/shots/popular/typography
 https://lottiefiles.com/
 https://www.svgator.com/
+https://nodesign.dev/
+EXPRECION REGULAR
+regex.com
 -------------------------------------------------------------
 
 placeholder.com --> pagina para imgs
@@ -58,4 +61,15 @@ align-content --> sirve para alinear los elementos cuando la propiedad flex-wrap
 y los elementos han colpasado formando asi mas de una fila en el caso de flex row o mas de una
 columna en el caso de flex column
 
+
+<CANVAS>
+threejs --> libreria para animaciones 3d y 2d JS
+
+-----------LIBRERIAS--------------
+https://flickity.metafizzy.co/ -->para dar slider
+http://fian.my.id/Waves/#start --> stylos para botones
+
+----------------framework--------
+https://materializecss.com/showcase.html
+https://getbootstrap.com/
 
