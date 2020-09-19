@@ -3,7 +3,7 @@ import React from 'react'
 const AdminPlatos = () => {
     return (
         <div>
-            Admin de Platos
+            Admin de Productos
         </div>
     )
 }

@@ -8,7 +8,7 @@ const Persona = ({ objPersona,setPersonaSeleccionada }) => {
   return (
     <div className="col-md-3 mb-3 mt-5">
       <div className="card shadow">
-        <img src={objPersona.avatar} className="card-img-top" />
+        <img src={objPersona.avatar} alt="avatar" className="card-img-top" />
         <div className="card-body">
           <p className="card-text">
             <strong>Nombre:</strong>
@@ -22,7 +22,13 @@ const Persona = ({ objPersona,setPersonaSeleccionada }) => {
             <strong>Email:</strong>
             {objPersona.email}
           </p>
-          <button className="btn btn-outline-dark btn-block" onClick={seleccionarPersona}>Ver mas</button>
+          {
+            setPersonaSeleccionada ? ( 
+            <button className="btn btn-outline-dark btn-block" onClick={seleccionarPersona}>Ver mas
+            </button>):
+            (null)
+          }
+         
         </div>
       </div>
     </div>

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+:root {
+  --color-primario: #e84d3b;
+}
+body {
+  background: #222;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-nav{
+  background-color: rgb(243, 152, 48);
+}
+h1 {
+  color: #444;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cards {
+ 
+  text-align: center;
+}
+
+.color-primario {
+  color: var(--color-primario);
+}
+
+.card__inicio {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 20px;
+  border: 1px solid #bbb;
+}
+.card__inicio,
+.card__inicio * {
+  transition: all 0.2s ease;
+}
+
+.card__imagen {
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card__imagen img {
+  width: 100%;
+  transform: translate(0, -100px);
+}
+.card__imagen__pr{
+  height: 60%;
+  overflow: hidden;
+  position: relative;
+  
+}
+.image__default{
+  width: 100%;
+  transform: translate(0, 20px);
+}
+
+.card__photos {
+  position: absolute;
+  top: 0;
+  /* background-color: rgb(187, 173, 173); */
+  background: rgb(243, 152, 48);
+  color: #222;
+  padding: 8px 11px;
+  border-radius: 1px;
+  border-bottom-right-radius: 20px;
+}
+
+.card__fecha {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background-color: rgb(243, 152, 48);
+  color: #222;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  line-height: 0.8rem;
+  padding-top: 15px;
+  border-bottom-left-radius: 20px;
+}
+
+.card__fecha span {
+  font-size: 1rem;
+}
+
+.card__info {
+  padding: 20px;
+  position: relative;
+  height: 40%;
+}
+
+.card__subtitulo {
+  color: #222;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.card__titulo{
+  font-size: 24px;
+  color: rgb(243, 152, 48);
+  font-weight: bold;
+}
+.card__feed {
+  color: #888;
+  /* position: absolute; */
+  bottom: 20px;
+}
+
+.card__descripcion {
+  margin-top: 5px;
+  font-size: 0.8rem;
+  color: #333;
+  line-height: 1.1rem;
+  visibility: hidden;
+  opacity: 0;
+}
+
+/* .card__inicio:hover .card__imagen {
+  height: 0%;
+} */
+
+.card__inicio:hover .card__imagen img {
+  filter: brightness(0.5);
+}
+
+.card__inicio:hover {
+  box-shadow: #bbb 0px 0px 20px;
+  transform: scale(1.05);
+}
+.boton{
+  outline-color: rgb(243, 152, 48) !important;
+  border: 1px solid rgb(243, 152, 48) !important;
+
+}
+.boton:hover{
+  background: rgb(243, 152, 48);
+  color: white;
+}
+
+.icono{
+  text-decoration: none;
+  font-size: 36px;
+}
+
+

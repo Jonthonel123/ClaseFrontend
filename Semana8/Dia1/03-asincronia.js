@@ -1,40 +1,35 @@
 /**
  * setTimeout
  */
-
-let resultados = []
+let resultado = [];
 const traerDatos = () => {
-    console.log("conectadose a la BD ...");
-    console.log("los datos llegaron del servidor");
-    resultados = [50, 70, 80, 90, 100]
-}
+  console.log("Conectándose a la base de gatos");
+  console.log("Los datos llegaron del servidor =)");
+  resultado = [5000, 8500, 10000];
+};
 
-console.log("log 1");
+console.log("LOG 1");
 
-setTimeout(traerDatos, 2000)
+//funcion asincrona
+setTimeout(traerDatos, 2000);
 
-console.log("log 2");
-console.log(resultados);
-
-console.log("log 3");
-// setTimeout(() => {
-//     console.log("se trajeron datos mas pesados");
-// }, 3000)
+console.log("LOG 2");
+console.log(resultado);
+console.log("LOG 3");
 
 /**
  * promesas
  */
 
-
-
 /**
- * fetch(ajax)
+ * async await
  */
 
-
-
-
+/**
+ * fetch (ajax)
+ */
 
 /**
- * Importaciones y exportaciones
+ * importaciones y exportaciones
+ * aprenda a importar desde la China
  */

@@ -66,10 +66,13 @@ columna en el caso de flex column
 threejs --> libreria para animaciones 3d y 2d JS
 
 -----------LIBRERIAS--------------
+https://getflywheel.com/layout/best-javascript-libraries-frameworks-2020/
 https://flickity.metafizzy.co/ -->para dar slider
 http://fian.my.id/Waves/#start --> stylos para botones
+
 
 ----------------framework--------
 https://materializecss.com/showcase.html
 https://getbootstrap.com/
-
+----REACT----
+LOADING: https://www.davidhu.io/react-spinners/

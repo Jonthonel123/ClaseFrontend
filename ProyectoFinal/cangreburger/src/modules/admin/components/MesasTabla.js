@@ -59,7 +59,7 @@ const MesasTabla = ({ mesas, loading, obtenerMesas, setMesa, setModo }) => {
                 eliminarMesaById(objMesa.mesa_id);
               }}
             >
-              Eliminar
+             <i class="far fa-trash-alt"></i>
             </button>
             <button
               className="btn btn-warning ml-2"
@@ -67,7 +67,7 @@ const MesasTabla = ({ mesas, loading, obtenerMesas, setMesa, setModo }) => {
                 editarMesaById(objMesa);
               }}
             >
-              Editar
+              <i class="far fa-edit"></i>
             </button>
           </>
         ),
@@ -87,9 +87,6 @@ const MesasTabla = ({ mesas, loading, obtenerMesas, setMesa, setModo }) => {
                 searchLabel={"Buscar"}
                 infoLabel={["Mostrando", "al", "de", "registros"]}
                 hover
-                dark
-                tbodyTextWhite
-                theadTextWhite
                 bordered
                 striped
                 entriesOptions={[5, 20, 25]}

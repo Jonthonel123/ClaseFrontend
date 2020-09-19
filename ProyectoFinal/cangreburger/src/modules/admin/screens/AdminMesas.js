@@ -23,7 +23,7 @@ const AdminMesas = () => {
     <>
       <div className="row mt-4">
         <div className="col">
-          <h1 className="text-center">Mantenimiento de Hamburguesas</h1>
+          <h1 className="text-center text-white">Mantenimiento de Mesas</h1>
         </div>
       </div>
 

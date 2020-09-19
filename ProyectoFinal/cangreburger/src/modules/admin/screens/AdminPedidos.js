@@ -1,11 +1,19 @@
-import React from 'react'
+import React from "react";
+import PedidosTabla from "../components/PedidosTabla";
 
-const AdminPedidos = () => {
-    return (
-        <div>
-            Admin de Pedidos
+const AdminPedidos = (props) => {
+  return (
+    
+      <>
+        <div className="row mt-4">
+          <div className="col">
+            <h1 className="text-center text-white">Pedidos</h1>
+          </div>
         </div>
-    )
-}
+        <PedidosTabla history={props.history}/>
+      </>
+    
+  );
+};
 
-export default AdminPedidos
+export default AdminPedidos;
